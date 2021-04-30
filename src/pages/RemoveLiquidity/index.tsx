@@ -3,7 +3,7 @@ import styled, { ThemeContext } from 'styled-components'
 import { splitSignature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Currency, currencyEquals, ETHER, Percent, WETH } from '@pancakeswap-libs/sdk'
+import { Currency, currencyEquals, ETHER, Percent, WETH } from 'kccswap-sdk'
 import { Button, Flex, Text } from '@pancakeswap-libs/uikit'
 import { ArrowDown, Plus } from 'react-feather'
 import { RouteComponentProps } from 'react-router'
@@ -122,8 +122,9 @@ export default function RemoveLiquidity({
       { name: 'chainId', type: 'uint256' },
       { name: 'verifyingContract', type: 'address' },
     ]
+    // todo
     const domain = {
-      name: 'Pancake LPs',
+      name: 'Kccswap LPs',
       version: '1',
       chainId,
       verifyingContract: pair.liquidityToken.address,
