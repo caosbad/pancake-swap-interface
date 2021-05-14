@@ -11,20 +11,52 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "WKCS Token",
-      "symbol": "WKCS",
+      "name": "KCS",
+      "symbol": "KCS",
       "address": "0xB296bAb2ED122a85977423b602DdF3527582A3DA",
       "chainId": 322,
       "decimals": 18,
-      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png"
     },
     {
-      "name": "Bakery Token",
-      "symbol": "BAKE",
-      "address": "0xe02df9e3e622debdd69fb838bb799e3f168902c5",
-      "chainId": 56,
+      "name": "Wrapped BTC",
+      "symbol": "KBTC",
+      "address": "0xB19E5C71A6da4953206d63FA8E50FF912e5D43dE",
+      "chainId": 322,
       "decimals": 18,
-      "logoURI": "https://exchange.pancakeswap.finance/images/coins/0xe02df9e3e622debdd69fb838bb799e3f168902c5.png"
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoin/info/logo.png"
+    },
+    {
+      "name": "DAI",
+      "symbol": "DAI",
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "chainId": 322,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+    },
+    {
+      "name": "Uniswap token",
+      "symbol": "UNI",
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 322,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+    },
+    {
+      "name": "SushiSwap token",
+      "symbol": "SUSHI",
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "chainId": 322,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png"
+    },
+    {
+      "name": "ETH",
+      "symbol": "WETH",
+      "address": "0x0a51d014d30ed3B5726f80Ef93E45199c1b7A337",
+      "chainId": 322,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
     }
   ]
 }

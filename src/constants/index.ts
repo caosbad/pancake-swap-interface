@@ -27,10 +27,18 @@ export const ETH = new Token(
   'ETH',
   'Binance-Peg Ethereum Token'
 )
+export const KUSDT = new Token(ChainId.KCCTESTNET, '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18, 'USDT', 'USDT')
+export const KBTC = new Token(ChainId.KCCTESTNET, '0xB296bAb2ED122a85977423b602DdF3527582A3DA', 18, 'WBTC', 'Wrapped BTC')
+export const KDAI = new Token(ChainId.KCCTESTNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
+export const KUNI = new Token(ChainId.KCCTESTNET, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'UNI', 'Uniswap token')
+export const KSUSHI = new Token(ChainId.KCCTESTNET, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'SUSHI', 'Sushiswap token')
+export const KETH = new Token(ChainId.KCCTESTNET, '0x55d398326f99059fF775485246999027B3197955', 18, 'WETH', 'Wrapped ETH')
+
+
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
-  [ChainId.KCCTESTNET]: [WETH[ChainId.KCCTESTNET]],
+  [ChainId.KCCTESTNET]: [WETH[ChainId.KCCTESTNET],KBTC, KDAI, KETH, KSUSHI, KUNI, KUSDT ],
 }
 
 // used to construct intermediary pairs for trading
@@ -59,12 +67,16 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, BTCB, USDT],
 }
 
+
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [CAKE, WKCS],
     [BUSD, USDT],
     [DAI, USDT],
   ],
+  [ChainId.KCCTESTNET]:[
+
+  ]
 }
 
 export const NetworkContextName = 'NETWORK'
