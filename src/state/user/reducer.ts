@@ -62,7 +62,11 @@ export const initialState: UserState = {
   userExpertMode: false,
   userSlippageTolerance: INITIAL_ALLOWED_SLIPPAGE,
   userDeadline: DEFAULT_DEADLINE_FROM_NOW,
-  tokens: {},
+  tokens: {
+    322:{
+
+    }
+  },
   pairs: {},
   timestamp: currentTimestamp(),
   audioPlay: true
@@ -106,6 +110,13 @@ export default createReducer(initialState, builder =>
       state.timestamp = currentTimestamp()
     })
     .addCase(addSerializedToken, (state, { payload: { serializedToken } }) => {
+      if(!state.tokens) {
+        state.tokens = {
+          322:{
+            
+          }
+        }
+      }
       state.tokens[serializedToken.chainId] = state.tokens[serializedToken.chainId] || {}
       state.tokens[serializedToken.chainId][serializedToken.address] = serializedToken
       state.timestamp = currentTimestamp()
