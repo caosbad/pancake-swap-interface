@@ -20,7 +20,7 @@
     },
     {
       "name": "Wrapped BTC",
-      "symbol": "KBTC",
+      "symbol": "BTC",
       "address": "0xB19E5C71A6da4953206d63FA8E50FF912e5D43dE",
       "chainId": 322,
       "decimals": 18,
@@ -29,7 +29,7 @@
     {
       "name": "DAI",
       "symbol": "DAI",
-      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "address": "0x2d850d55e027a14CDF71C9194ff3e7330f802B26",
       "chainId": 322,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
@@ -37,7 +37,7 @@
     {
       "name": "Uniswap token",
       "symbol": "UNI",
-      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "address": "0x2AaA91Fc7c09E4102A66Ef0028090596e59929d6",
       "chainId": 322,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
@@ -45,7 +45,7 @@
     {
       "name": "SushiSwap token",
       "symbol": "SUSHI",
-      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "address": "0xAEAe81517DD8c326b2eCc8F09402196731d2EDf7",
       "chainId": 322,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png"
